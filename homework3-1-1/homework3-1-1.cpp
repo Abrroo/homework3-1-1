@@ -14,7 +14,7 @@ int main(int argc, const char* argv[]) {
     if (!fin.is_open())
     {
         std::cout << "Can't open input file!";
-        return 0;
+        return 1;
     }
     unsigned int size1 = 0, size2 = 0;
     fin >> size1;
@@ -35,20 +35,21 @@ int main(int argc, const char* argv[]) {
     if (!fout.is_open())
     {
         std::cout << "Can't open output file!";
-        return 0;
+        return 1;
     }
     fout << size2 << std::endl;
-    for (int i = size2 - 1; i >= 0; i--)
+    fout << arr2[size2 - 1] << " ";
+    for (int i = 0; i < size2 - 1; i++)
     {
         fout << arr2[i] << " ";
     }
     fout << std::endl;
     fout << size1 << std::endl;
-    for (int i = size1 - 1; i >= 0; i--)
+    for (int i = 1; i < size1; i++)
     {
         fout << arr1[i] << " ";
     }
-    fout << std::endl;
+    fout << arr1[0] << std::endl;
     fout.close();
 
     delete[] arr1;

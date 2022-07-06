@@ -1,1 +1,6 @@
-﻿  homework3-1-1.vcxproj -> C:\Users\Master\source\repos\homework3-1-1\x64\Debug\homework3-1-1.exe
+﻿  homework3-1-1.cpp
+C:\Users\Master\source\repos\homework3-1-1\homework3-1-1\homework3-1-1.cpp(22,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Master\source\repos\homework3-1-1\homework3-1-1\homework3-1-1.cpp(28,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Master\source\repos\homework3-1-1\homework3-1-1\homework3-1-1.cpp(42,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Master\source\repos\homework3-1-1\homework3-1-1\homework3-1-1.cpp(48,23): warning C4018: <: несоответствие типов со знаком и без знака
+  homework3-1-1.vcxproj -> C:\Users\Master\source\repos\homework3-1-1\x64\Debug\homework3-1-1.exe
